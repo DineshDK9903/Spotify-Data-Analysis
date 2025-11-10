@@ -15,6 +15,8 @@ total_tracks	Total number of tracks in that album
 release_date	Date when the song/album was released
 is_explicit	Indicates if song has explicit content
 album_cover_url	Album art URL (used for visuals)
+
+
 ⚙️ Tech Stack
 
 Tool: Power BI Desktop
@@ -24,6 +26,7 @@ Language: DAX (Data Analysis Expressions)
 Data Source: Spotify Global Top 50 Dataset (CSV)
 
 Visualization Tools: Power BI Charts, Cards, KPIs, and Custom Visuals
+
 
 📈 Key DAX Measures
 
@@ -53,6 +56,7 @@ Average Release Year
 
 👉 All measures are defined in DEFINE MEASURE format for easy integration into Tabular Editor or DAX Studio.
 
+
 💡 Insights Gained
 
 Identify the most popular artists and songs globally.
@@ -64,6 +68,7 @@ Explore release trends — are newer songs dominating charts?
 Understand how album type impacts average chart position.
 
 Visualize popularity trends over time using the date field.
+
 
 📊 Power BI Dashboard Highlights
 
@@ -77,6 +82,7 @@ Visualize popularity trends over time using the date field.
 
 🧩 Interactive Filters: Explore by artist, album type, or release period.
 
+
 🚀 How to Run
 
 Load the dataset (Top-50-World.csv) into Power BI Desktop.
@@ -87,21 +93,25 @@ Refresh visuals and explore interactive charts.
 
 Optional: Publish the dashboard to Power BI Service for online access.
 
+
 📁 Project Structure
 Top-50-World/
+
 │
 ├── data/
 │   └── Top-50-World.csv
+
 │
 ├── dax/
 │   └── measures_top50world.dax
+
 │
 ├── reports/
 │   └── Top-50-World.pbix
+
 │
 ├── README.md
-│
-└── visuals/
+│   └── visuals/
     └── dashboard_screenshots.png
 
 🧠 Future Enhancements
